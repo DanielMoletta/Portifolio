@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    background-color: #ebca9c;
+    height: 100vh;
+    width: 100%;
+    font-family: "Cabin";
+    color: #000000;
+    gap: 10px;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 20px;
+    order: 1;
+    margin-bottom: 15px;
+    background-color: #35180d;
+}
+
+.main_con_main {
+    width: 100%;
+    max-height: fit-content;
+    order: 2;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.main_con_txt {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.txt_0 {
+    order: 2;
+    font-family: "Special Gothic Expanded One";
+    font-weight: 500;
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ebca9c;
+    text-align: center;
+}
+
+.txt_1 {
+    font-size: 30px;
+    width: fit-content;
+    max-width: 570px;
+    height: 580px;
+    text-align: center;
+    color: #000000;
+    background-color: #35180d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.txt_2 {
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One";
+    max-width: 570px;
+    height: 600px;
+    text-align: center;
+    color: #4b192a;
+    background-color: #F6C391;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.9s;
+    overflow: hidden;
+    border: #35180d, 10px;
+    border-style: solid;
+}
+
+.txt_2:hover {
+    padding: 20px;
+}
+
+.txt_2_sub {
+    font-size: 30px;
+    color: #4b192a;
+    font-family: "Cabin";
+    font-weight: bold;
+    text-align: start;
+    padding-left: 20px;
+}
+
+.contatos {
+    font-size: 50px;
+    font-family: "Special Gothic Expanded One";
+    max-width: 570px;
+    height: 75px;
+    text-align: center;
+    color: #F6C391;
+    background-color: #35180d;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.9s;
+    overflow: hidden;
+    border: solid, 0px, #35180d;
+}
+
+.contatos:hover {
+    height: 600px;
+    background-color: #F6C391;
+    border-radius: 40px;
+    color: #4b192a;
+    border: #35180d, 10px, solid;
+}
+
+.con {
+    height: 150px;
+}
+
+.img_src {
+    height: 150px;
+    border-radius: 50px;
+}
